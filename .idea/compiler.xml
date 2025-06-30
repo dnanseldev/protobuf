@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for protobuf" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="micronaut.processing.group" value="com.sandbox.stone" />
+        <option name="micronaut.processing.module" value="protobuf" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-inject-java/4.9.5/micronaut-inject-java-4.9.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-core-processor/4.9.5/micronaut-core-processor-4.9.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-inject/4.9.2/micronaut-inject-4.9.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-core/4.9.2/micronaut-core-4.9.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-aop/4.9.5/micronaut-aop-4.9.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/github/javaparser/javaparser-symbol-solver-core/3.26.4/javaparser-symbol-solver-core-3.26.4.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/github/javaparser/javaparser-core/3.26.4/javaparser-core-3.26.4.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/sourcegen/micronaut-sourcegen-bytecode-writer/1.8.2/micronaut-sourcegen-bytecode-writer-1.8.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/sourcegen/micronaut-sourcegen-model/1.8.2/micronaut-sourcegen-model-1.8.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/ow2/asm/asm/9.8/asm-9.8.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-core-reactive/4.9.5/micronaut-core-reactive-4.9.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/serde/micronaut-serde-processor/2.15.0/micronaut-serde-processor-2.15.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/serde/micronaut-serde-api/2.15.0/micronaut-serde-api-2.15.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-context/4.9.2/micronaut-context-4.9.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-json-core/4.9.2/micronaut-json-core-4.9.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-http/4.9.2/micronaut-http-4.9.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-context-propagation/4.9.2/micronaut-context-propagation-4.9.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.7.6/reactor-core-3.7.6.jar" />
+        </processorPath>
+        <module name="protobuf" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="protobuf" options="-parameters -Amicronaut.processing.group=com.sandbox.stone -Amicronaut.processing.module=protobuf" />
+    </option>
+  </component>
+</project>
